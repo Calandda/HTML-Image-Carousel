@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.imageCarousel{
+    display: flex;
+    background-color: pink;
+    margin: 0 auto;
+    height: 500px;
+    width: 1500px;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+}
+.imageCarousel > img{
+    justify-self: center;
+    align-self: center;
+    height: 500px;
+}
+
+.imageCarousel1{
+    display: flex;
+}
+
+.imageCarousel2,
+.imageCarousel3,
+.imageCarousel4,
+.imageCarousel5{
+    display: none;
+}
+
+.imageCarouselButton{
+    background-color: hsla(0, 0%, 50%, 0.5);
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.imageCarouselButton > p{
+    align-self: center;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.imageCarouselBack{
+    bottom: 250px;
+    left: 0px;
+}
+.imageCarouselNext{
+    right: 0;
+    bottom: 250px
+}
+.divRadioButton{
+    background-color:hsla(0, 0%, 50%, 0.5);
+    position: absolute;
+    bottom: 0px;
+    height: 60px;
+}
